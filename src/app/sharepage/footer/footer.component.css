@@ -1,0 +1,80 @@
+.footercontent{
+    /* background-image: url(../../../assets/footerImg.jpg); */
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../../../assets/footerImg.jpg);
+    background-position: 50% 50%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footer1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.logo img{
+    height: 80px;
+}
+
+.days_time{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.days{
+    display: flex;
+    flex-direction: column;
+    
+}
+.Time{
+    display: flex;
+    flex-direction: column;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #000;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: #fff;
+    opacity: 0.9;
+
+    
+}
+.socialIcons a:hover{
+    background-color: green;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i{
+    color: #000;
+    transition: 0.5s;
+}
+
+.footer-text{
+    color: #fff;
+}
+.opening_time{
+    /* position: absolute; */
+    color: #fff;
+}
+
+@media screen and (max-width:700px) {
+    .footer-content{
+        display: grid;
+    }
+}
